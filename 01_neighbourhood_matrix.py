@@ -17,11 +17,6 @@ v_element = pd.read_csv('veins_element_database.csv')
 a_outlets = pd.read_csv('arteries_outlet_coordinates_3D_shifted.csv')
 v_outlets = pd.read_csv('veins_outlet_coordinates_3D_shifted.csv')
 
-'''
-tongue = np.load('Frog_Tongue_Tissue.npy')
-arteries = np.load('Frog_Arteries.npy')
-veins = np.load('Frog_Veins.npy')
-'''
 
 dom = np.load('tongue_3D.npy')
 
