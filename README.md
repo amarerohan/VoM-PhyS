@@ -30,6 +30,6 @@ This section will only work if the flow solver part has been succesfully execute
 
 1. Heat_solver_parameter_file_loader.py - Provide the parameters and ensure they are correct with respect to the flow solver section. This will ensure correct files are being loaded.
 2. Matrix generation: This step is in two parts
-   A. Heat_voxel_equations_read_write.py - Run this code and it will generate an excel sheet that stores the row, col and data of the heat equations for the tissue voxels.
-   B. Heat_artery_vein_equations_read_write.py - Run this code and it will generate an excel sheet that stores the row, col and data of the heat equations for the segmented vessels.
+   [A]. Heat_voxel_equations_read_write.py - Run this code and it will generate an excel sheet that stores the row, col and data of the heat equations for the tissue voxels.
+   [B]. Heat_artery_vein_equations_read_write.py - Run this code and it will generate an excel sheet that stores the row, col and data of the heat equations for the segmented vessels.
 3. Heat_load_and_solver_read_write.py - The final step to solve for the heat transfer equation.
